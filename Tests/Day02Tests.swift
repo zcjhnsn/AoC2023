@@ -21,7 +21,7 @@ Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green
 
     func testDay02_part1_solution() throws {
         let day = Day02(input: Day02.input) 
-        XCTAssertEqual(day.part1(), 2149)
+        XCTAssertEqual(day.part1(), 2283)
     }
 
     func testDay02_part2() throws {
@@ -31,6 +31,6 @@ Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green
 
     func testDay02_part2_solution() throws {
         let day = Day02(input: Day02.input) 
-        XCTAssertEqual(day.part2(), 71274)
+        XCTAssertEqual(day.part2(), 78669)
     }
 }

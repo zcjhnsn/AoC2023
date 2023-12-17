@@ -22,7 +22,7 @@ Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11
 
     func testDay04_part1_solution() throws {
         let day = Day04(input: Day04.input) 
-        XCTAssertEqual(day.part1(), 21138)
+        XCTAssertEqual(day.part1(), 21105)
     }
 
     func testDay04_part2() throws {
@@ -32,6 +32,6 @@ Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11
 
     func testDay04_part2_solution() throws {
         let day = Day04(input: Day04.input) 
-        XCTAssertEqual(day.part2(), 7185540)
+        XCTAssertEqual(day.part2(), 5329815)
     }
 }

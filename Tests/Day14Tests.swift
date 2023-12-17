@@ -26,7 +26,7 @@ O.#..O.#.#
 
     func testDay14_part1_solution() throws {
         let day = Day14(input: Day14.input) 
-        XCTAssertEqual(day.part1(), 106997)
+        XCTAssertEqual(day.part1(), 108857)
     }
 
     func testDay14_part2() throws {
@@ -36,6 +36,6 @@ O.#..O.#.#
 
     func testDay14_part2_solution() throws {
         let day = Day14(input: Day14.input) 
-        XCTAssertEqual(day.part2(), 99641)
+        XCTAssertEqual(day.part2(), 95273)
     }
 }

@@ -21,6 +21,14 @@ final class Day17Tests: XCTestCase {
 2546548887735
 4322674655533
 """
+    
+    let testInput2 = """
+111111111111
+999999999991
+999999999991
+999999999991
+999999999991
+"""
 
     let testInput2 = """
 111111111111
@@ -37,15 +45,17 @@ final class Day17Tests: XCTestCase {
 
     func testDay17_part1_solution() throws {
         let day = Day17(input: Day17.input) 
-        XCTAssertEqual(day.part1(), 1238)
+        XCTAssertEqual(day.part1(), 722)
     }
 
     func testDay17_part2() throws {
-        let day1 = Day17(input: testInput)
-        XCTAssertEqual(day1.part2(), 94)
+        let day = Day17(input: testInput)
+        XCTAssertEqual(day.part2(), 94)
+    }
 
-        let day2 = Day17(input: testInput2)
-        XCTAssertEqual(day2.part2(), 71)
+    func testDay17_part2_second() throws {
+        let day = Day17(input: testInput2)
+        XCTAssertEqual(day.part2(), 71)
     }
 
     func testDay17_part2_solution() throws {

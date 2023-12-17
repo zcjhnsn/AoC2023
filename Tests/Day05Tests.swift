@@ -49,7 +49,7 @@ humidity-to-location map:
 
     func testDay05_part1_solution() throws {
         let day = Day05(input: Day05.input) 
-        XCTAssertEqual(day.part1(), 535088217)
+        XCTAssertEqual(day.part1(), 173706076)
     }
 
     func testDay05_part2() throws {
@@ -59,6 +59,6 @@ humidity-to-location map:
 
     func testDay05_part2_solution() throws {
         let day = Day05(input: Day05.input) 
-        XCTAssertEqual(day.part2(), 51399228)
+        XCTAssertEqual(day.part2(), 11611182)
     }
 }

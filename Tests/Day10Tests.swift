@@ -81,7 +81,7 @@ L7JLJL-JLJLJL--JLJ.L
 
     func testDay10_part1_solution() throws {
         let day = Day10(input: Day10.input) 
-        XCTAssertEqual(day.part1(), 6838)
+        XCTAssertEqual(day.part1(), 6757)
     }
 
     func testDay10_part2() throws {
@@ -100,6 +100,6 @@ L7JLJL-JLJLJL--JLJ.L
 
     func testDay10_part2_solution() throws {
         let day = Day10(input: Day10.input) 
-        XCTAssertEqual(day.part2(), 451)
+        XCTAssertEqual(day.part2(), 523)
     }
 }

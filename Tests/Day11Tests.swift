@@ -26,7 +26,7 @@ final class Day11Tests: XCTestCase {
 
     func testDay11_part1_solution() throws {
         let day = Day11(input: Day11.input) 
-        XCTAssertEqual(day.part1(), 9233514)
+        XCTAssertEqual(day.part1(), 10228230)
     }
 
     func testDay11_part2() throws {
@@ -38,6 +38,6 @@ final class Day11Tests: XCTestCase {
 
     func testDay11_part2_solution() throws {
         let day = Day11(input: Day11.input) 
-        XCTAssertEqual(day.part2(), 363293506944)
+        XCTAssertEqual(day.part2(), 447073334102)
     }
 }

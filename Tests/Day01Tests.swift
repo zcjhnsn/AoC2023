@@ -30,7 +30,7 @@ zoneight234
 
     func testDay01_part1_solution() throws {
         let day = Day01(input: Day01.input) 
-        XCTAssertEqual(day.part1(), 53974)
+        XCTAssertEqual(day.part1(), 54450)
     }
 
     func testDay01_part2() throws {
@@ -40,6 +40,6 @@ zoneight234
 
     func testDay01_part2_solution() throws {
         let day = Day01(input: Day01.input) 
-        XCTAssertEqual(day.part2(), 52840)
+        XCTAssertEqual(day.part2(), 54265)
     }
 }

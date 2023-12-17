@@ -21,7 +21,7 @@ QQQJA 483
 
     func testDay07_part1_solution() throws {
         let day = Day07(input: Day07.input)
-        XCTAssertEqual(day.part1(), 250898830)
+        XCTAssertEqual(day.part1(), 249726565)
     }
 
     func testDay07_part2() throws {
@@ -31,6 +31,6 @@ QQQJA 483
 
     func testDay07_part2_solution() throws {
         let day = Day07(input: Day07.input)
-        XCTAssertEqual(day.part2(), 252127335)
+        XCTAssertEqual(day.part2(), 251135960)
     }
 }

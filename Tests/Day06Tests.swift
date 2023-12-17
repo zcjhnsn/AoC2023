@@ -18,7 +18,7 @@ Distance:  9  40  200
 
     func testDay06_part1_solution() throws {
         let day = Day06(input: Day06.input) 
-        XCTAssertEqual(day.part1(), 1710720)
+        XCTAssertEqual(day.part1(), 2612736)
     }
 
     func testDay06_part2() throws {
@@ -28,6 +28,6 @@ Distance:  9  40  200
 
     func testDay06_part2_solution() throws {
         let day = Day06(input: Day06.input) 
-        XCTAssertEqual(day.part2(), 35349468)
+        XCTAssertEqual(day.part2(), 29891250)
     }
 }
