@@ -22,15 +22,7 @@ final class Day17Tests: XCTestCase {
 4322674655533
 """
     
-    let testInput2 = """
-111111111111
-999999999991
-999999999991
-999999999991
-999999999991
-"""
-
-    let testInput2 = """
+    private let testInput2 = """
 111111111111
 999999999991
 999999999991

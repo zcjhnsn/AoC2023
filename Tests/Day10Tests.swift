@@ -85,6 +85,9 @@ L7JLJL-JLJLJL--JLJ.L
     }
 
     func testDay10_part2() throws {
+        let day2 = Day10(input: testInput1a)
+        XCTAssertEqual(day2.part2(), 1)
+        
         let day2a = Day10(input: testInput2a)
         XCTAssertEqual(day2a.part2(), 4)
 
