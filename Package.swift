@@ -9,9 +9,10 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/gereons/AoCTools", from: "0.0.44"),
         // .package(path: "../AoCTools"),
+        .package(url: "https://github.com/apple/swift-collections.git", .upToNextMajor(from: "1.0.6")),
     ],
     targets: [
-        .executableTarget(name: "AdventOfCode", dependencies: [ "AoCTools" ], path: "Sources"),
+        .executableTarget(name: "AdventOfCode", dependencies: [ "AoCTools", .product(name: "Collections", package: "swift-collections") ], path: "Sources"),
         .testTarget(name: "AoCTests", dependencies: [ "AdventOfCode", "AoCTools" ], path: "Tests")
     ]
 )
