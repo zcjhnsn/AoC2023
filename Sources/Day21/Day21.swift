@@ -69,22 +69,22 @@ final class Day21: AOCDay {
         // assume we start in the middle of grid
         assert(grid.start.x == grid.start.y && grid.start.x == size / 2)
         // assume maxSteps is a multiple of grid size over 2 because maxSteps mod grid size is 202300 and that can't be coincidence
-        assert(maxSteps % size == size / 2)
+//        assert(maxSteps % size == size / 2)
         
         // get how many grids wide our maxSteps is
-        var gridWidth = maxSteps / size - 1
+        let gridWidth = maxSteps / size - 1
         
-        var odd = gridWidth / 2 * 2 + 1
-        var even = (gridWidth + 1) / 2 * 2
-        var oddGrids = Int(pow(Double(odd), 2))
-        var evenGrids = Int(pow(Double(even), 2))
+        let odd = gridWidth / 2 * 2 + 1
+        let even = (gridWidth + 1) / 2 * 2
+        let oddGrids = Int(pow(Double(odd), 2))
+        let evenGrids = Int(pow(Double(even), 2))
                        
-        var odd_points = fill(start: grid.start, startingSteps: size * 2 + 1)
-        var even_points = fill(start: grid.start, startingSteps: size * 2)
+        let odd_points = fill(start: grid.start, startingSteps: size * 2 + 1)
+        let even_points = fill(start: grid.start, startingSteps: size * 2)
                        
-        var corner_t = fill(start: Point(grid.start.x, size - 1), startingSteps: size - 1)
-        var corner_r = fill(start: Point(0, grid.start.y), startingSteps: size - 1)
-        var corner_b = fill(start: Point(grid.start.x, 0), startingSteps: size - 1)
+        let corner_t = fill(start: Point(grid.start.x, size - 1), startingSteps: size - 1)
+        let corner_r = fill(start: Point(0, grid.start.y), startingSteps: size - 1)
+        let corner_b = fill(start: Point(grid.start.x, 0), startingSteps: size - 1)
         var corner_l = fill(start: Point(size - 1, grid.start.y), startingSteps: size - 1)
                        
         var small_tr = fill(start: Point(0, size - 1), startingSteps: Int(floor(Double(size / 2)) - 1))
